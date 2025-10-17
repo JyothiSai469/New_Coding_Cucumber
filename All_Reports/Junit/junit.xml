@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="9.175022">
+    <testcase classname="We Need To Fill The Details With and WithOut For Account Creation" name="To Fill The Details By Useing Without Header Details" time="5.556668">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.WithWithoutHeader.enterTheLastNameWithOutHeader(WithWithoutHeader.java:45)&#13;&#10;&#9;at ✽.Enter The Last Name WithOut Header(src/test/resources/With&amp;WithoutHeader.feature:13)&#13;&#10;"><![CDATA[Given Launch The Browser For Account Creation...............................passed
+When Open The FB Url........................................................passed
+And Enter The First Name WithOut Header.....................................passed
+And Enter The Last Name WithOut Header......................................failed
+Then Close The FaceBook Browser.............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.WithWithoutHeader.enterTheLastNameWithOutHeader(WithWithoutHeader.java:45)
+	at ✽.Enter The Last Name WithOut Header(src/test/resources/With&WithoutHeader.feature:13)
+]]></failure>
+    </testcase>
+    <testcase classname="We Need To Fill The Details With and WithOut For Account Creation" name="To Fill The Details By Using With Header Details" time="3.618354">
+        <system-out><![CDATA[Given Launch The Browser For Account Creation...............................passed
+When Open The FB Url........................................................passed
+And Enter The First Name With Header........................................passed
+And Enter The Last Name With Header.........................................passed
+Then Close The FaceBook Browser.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
