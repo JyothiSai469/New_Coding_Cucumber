@@ -47,6 +47,11 @@ public class Hook extends BaseClass{
 		
 		System.out.println("Post Condition No: 2");
 	}
+	
+	private void jyothiSai() {
+		System.out.println("Sample code for git fetch added by JyothiSai");
+
+	}
 	@After(order = 1)
 	public void postcondition3() {
 		System.out.println("Post Condition No: 1");
